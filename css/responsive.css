@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1500px) {
+	input.form-control.mr-sm-2 {
+		width: 750px;
+	}
+
+}
+
+
+@media only screen and (max-width: 1025px) {
+	input.form-control.mr-sm-2 {
+		width: 450px;
+	}
+	.footer .col-md-12 .col-md-6 img {
+		width: 130px;
+	}
+	.img-header h2.text-dark {
+		font-size: 30px;
+	}
+
+	.img-header p.text-muted{
+		font-size: 24px;
+	}
+	.owl-dots {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 770px) {
+	*{
+		margin: 0px auto;
+		padding: 0px;
+	}
+	input.form-control.mr-sm-2 {
+		width: 195px;
+	}
+	.img-header h2.text-dark {
+		font-size: 14px;
+	}
+	.footer .col-md-12 .col-md-6 img {
+		width: 100px;
+	}
+	.img-header h2.text-dark {
+		font-size: 26px;
+	}
+
+	.img-header p.text-muted{
+		font-size: 20px;
+	}
+	.owl-dots {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 415px) {
+	input.form-control.mr-sm-2 {
+		width: 195px;
+	}
+	ul.carousel-indicators {
+		display: none;
+	}
+	.img-header h2.text-dark {
+		font-size: 14px;
+	}
+	.special-offer-product img.card-img-top {
+		width: 200px !important;
+		height: auto !important;
+	}
+	.img-header p.text-muted{
+		font-size: 9px;
+	}
+	.owl-dots {
+		display: none;
+	}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 360px) {
+	input.form-control.mr-sm-2 {
+		width: 195px;
+	}
+	ul.carousel-indicators {
+		display: none;
+	}
+	.img-header h2.text-dark {
+		font-size: 12px;
+	}
+
+	.img-header p.text-muted{
+		font-size: 9px;
+	}
+	.owl-dots {
+		display: none;
+	}
+}

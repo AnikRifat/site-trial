@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+/*csss wull start form heere----*/
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+.main-pading-area {
+	background-color: whitesmoke;
+}
+button#openNav {
+	background: transparent !important;
+	padding-top: 0px;
+	outline: none;
+}
+div#mySidebar {
+    z-index: 95;
+}
+
+a{
+	text-decoration: none !important;
+}
+button#openNav:hover {
+    color: #ffc107!important;
+    outline: none;
+}
+/*
+
+nav.navbar.navbar-expand-md.bg-danger.navbar-dark {
+    padding: 0px;
+
+    height: 45px;
+}
+nav *{
+	height: 100%;
+}
+input.form-control.mr-sm-2 {
+	width: 800px;
+}
+a.nav-link {
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+    }*/
+/*
+nav {
+    height: 50px;
+    font-weight: bold;
+}
+button#openNav {
+    outline: none;
+}
+.form-inline input[type="text"]{
+	outline: none;
+}
+a.nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px;
+}
+i.fas.fa-search {
+    padding-top: 10px;
+}
+
+.nav-item button span{
+	border:1px solid transparent;
+	border-radius: 50%;
+}
+*/
+.w3-collapse-navbar{
+	font-weight: bold;
+}
+a.w3-bar-item{
+	text-decoration: none;
+	font-size: 14px;
+}
+a.w3-bar-item:hover{
+	background: linear-gradient(45deg, rgba(255,255,255,0) 0%, rgba(255,255,0,1) 100%);
+	color: #dc3545;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-indicators li.active{
+	width: 12px;
+	height: 20px;
+	padding-bottom: 20px;
+	background-color: #dc3545 !important;
+	border:1px solid transparent !important;
+	border-radius: 4px 4px !important;
+}
+.carousel-indicators li{
+	background-color: #dc3545 !important;
+}
+.carousel-indicators{
+	transform: rotate(180deg);
+}
+.section-padding-2 .card img{
+	height: 25px;
+}
+.category-wise-select .card img.card-img-top.mx-auto {
+    height: 100px;
+    width: 100px!important;
+}
+
+.category-wise-select .card{
+	background: transparent;
+	border: none;
+}
+.footer .topbar img {
+	width: 50px;
+}
+
+.f-r{
+	font-size: 25px;
+}
+.footer li {
+	list-style: none;
+}
+.footer .col-md-8.f-l {
+	border-right: 1px solid #bbbbbb;
+}
+li.text-dark{
+	border-bottom: 1px solid #bbbbbb;
+}
+/*owl-crousel-2*/
+#owlDemo2 {
+    position: relative;
+}
+#owlDemo2 .owl-dots {
+    position: absolute;
+    /* bottom: 22px; */
+    left: 70%;
+    /* background: black; */
+    bottom: 10%;
+    z-index: 90;
+}
+
+#owlDemo2 .owl-nav.disabled {
+    visibility: hidden;
+}
+#owlDemo2 span {
+    background: white!important;
+}
+#owlDemo2 button.owl-dot {
+    background: white;
+    border: 1px solid #dc3545;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#owlDemo2 button.owl-dot.active {
+    background: #dc3545;
+}
+/*owl-crousel-2*/
+
+.show-cart li {
+	display: flex;
+}
+.category-wise-select .card {
+	margin-bottom: 20px;
+}
+.category-wise-select .card-img-top {
+	width: 200px;
+	height: 200px;
+	align-self: center;
+}
+.cart-bag.bg-warning{
+	width: 80px;
+	height:50px;
+	font-size: 10px;
+	position: sticky;
+	float: right;
+	top: 50%
+}
+.cart-bag.bg-warning.m-6.sticky-right.rounded-left {
+    z-index: 100;
+}
+.card.bg-warning.text-light {
+    opacity: 0.6;
+}
+
+.special-offer-product img.card-img-top {
+    height: 258px;
+}
+.special-offer-product span img {
+    /* width: 16px; */
+    height: 20px;
+    width: 20px !important;
+}
+.details-section img{
+	width: 200px;
+}
+.product-page span img{
+	height: 20px;
+    width: 20px !important;
+}
+.why-love .op-padding {
+    position: relative;
+   
+}
+
+.why-love .img-header {
+    position: absolute;
+    /* top: 0px; */
+    bottom: 0px;
+    /* background: whitesmoke; */
+    background-color: #e6e6e6;
+    opacity: 0.9;
+    height: 60%;
+    width: 100%;
+    /* width: 100%; */
+}
+.why-love .w-l-1{
+	border-bottom: 4px solid #ffc107;
+}
+.img-header.w-l-2 {
+    border-bottom: 4px solid #28a745;
+}
+.img-header.w-l-3 {
+    border-bottom: 4px solid #dc3545;
+}
+.footer.p-4.bg-muted {
+    background: #e2e2e2;
+}
+form.form-container {width: 200px;}
+
+
+div#myForm {
+    width: 200px;
+}

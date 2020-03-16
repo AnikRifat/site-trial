@@ -1,4 +1,5 @@
 //js will start form heere--------
+//left side bar
 	document.getElementById("mySidebar").style.display = "block";
 
 function w3_open() {
@@ -8,10 +9,25 @@ function w3_open() {
 function w3_close() {
 	document.getElementById("mySidebar").style.display = "none";
 }
+//left side bar
+//live-chat
+	document.getElementById("myForm").style.display = "none";
+	function openForm() {
+		document.getElementById("myForm").style.display = "block";
+		document.getElementById("chatBtn").style.display = "none";
+	}
+
+	function closeForm() {
+		document.getElementById("myForm").style.display = "none";
+		document.getElementById("chatBtn").style.display = "block";
+
+	}
+	$('#messages').scrollTop($('#messages')[0].scrollHeight);
+//live-chat
 //crousel-2nd
 $(document).ready(function () {
 	$('#owlDemo1').owlCarousel({
-		loop:false,
+		loop:true,
 		dots:false,
 		margin:10,
 		nav:false,
@@ -21,7 +37,7 @@ $(document).ready(function () {
 				items:1
 			},
 			600:{
-				items:1
+				items:2
 			},
 			1000:{
 				items:3
@@ -52,6 +68,29 @@ $(document).ready(function () {
 	});
 });
 //crousel-2nd
+//crousel-3rd
+$(document).ready(function () {
+	$('#owlDemo3').owlCarousel({
+		items:1,
+		loop:true,
+		margin:0,
+		nav:false,
+		dots:true,
+		autoplay:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
+});
+//crousel-3rd
 // Disable form submissions if there are invalid fields
 (function() {
 	'use strict';

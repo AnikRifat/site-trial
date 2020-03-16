@@ -354,7 +354,9 @@ button#closeBtn {
     z-order: 0;
     
 }
-
+.stepwizard-step p {
+    font-size: 0.7rem;
+}
 .stepwizard-step {    
     display: table-cell;
     text-align: center;
